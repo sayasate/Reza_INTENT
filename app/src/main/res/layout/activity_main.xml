@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_secondary"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/Button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="-60dp"
+        android:background="#00B0FF"
+        android:text="Profile reza wijayanti"
+        tools:ignore="MissingConstraints,TextContrastCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/Button2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="60dp"
+        android:background="#00B0FF"
+        android:text="Profile SMKN 1 SAYUNG"
+        tools:ignore="MissingConstraints,TextContrastCheck,TextSizeCheck,TouchTargetSizeCheck" />
+
+</LinearLayout>
